@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "958b05de-d5b1-4e7c-aa27-15386ec7d677",
+    "name": "Pedro Wehner",
+    "phone": "816.644.3149 x6147",
+    "email": "Alana77@hotmail.com",
+    "job": "Lead Solutions Representative"
+  },
+  {
+    "id": "85c4bd63-064f-4303-afe4-80b55586d8a8",
+    "name": "Laurence Runolfsson-Abbott",
+    "phone": "(556) 309-4853",
+    "email": "Fred_Bogisich@gmail.com",
+    "job": "Central Research Agent"
+  },
+  {
+    "id": "c99d745a-b44b-4274-af1e-bda029456950",
+    "name": "Chester Mitchell V",
+    "phone": "967-484-1674 x490",
+    "email": "Hilton_MacGyver@yahoo.com",
+    "job": "Product Branding Coordinator"
+  },
+  {
+    "id": "7421f8ca-8e87-45a1-abd5-0d216e4cde9f",
+    "name": "Gilberto Johns Jr.",
+    "phone": "(679) 600-8124",
+    "email": "Brandy.Boehm21@hotmail.com",
+    "job": "Dynamic Interactions Agent"
+  },
+  {
+    "id": "e19e1c37-de5e-4332-a8e7-4e8a1ec41520",
+    "name": "Ismael Wisozk Jr.",
+    "phone": "(739) 581-7865 x956",
+    "email": "Leatha.Ankunding91@hotmail.com",
+    "job": "Dynamic Division Analyst"
+  }
+]

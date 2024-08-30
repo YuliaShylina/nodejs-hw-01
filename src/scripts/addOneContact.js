@@ -13,10 +13,10 @@ import { getAllContacts } from './getAllContacts.js';
 import { updateContacts } from './updateContacts.js';
 
 export const addOneContact = async () => {
-  const constaсtsList = await getAllContacts();
+  const contaсtsList = await getAllContacts();
   const newContactsList = createFakeContact();
 
-  const data = [...constaсtsList, newContactsList];
+  const data = [...contaсtsList, newContactsList];
   await updateContacts(data);
 };
 

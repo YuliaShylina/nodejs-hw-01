@@ -10,12 +10,12 @@
 // removeLastContact();
 
 import { readFile } from '../utils/readFile.js';
-import { writeContacts } from '../utils/writeContacts.js';
+import { updateContacts } from '../utils/updateContacts.js';
 
 export const removeLastContact = async () => {
   const contacts = await readFile();
   contacts.pop();
-  await writeContacts(contacts);
+  await updateContacts(contacts);
 };
 
 removeLastContact();
