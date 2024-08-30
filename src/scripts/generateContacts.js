@@ -1,12 +1,12 @@
 import { createFakeContact } from '../utils/createFakeContact.js';
-import { updateContacts } from '../utils/updateContacts.js';
+import { updateContacts } from './updateContacts.js';
 import { getAllContacts } from './getAllContacts.js';
 
 export const generateContacts = async (number) => {
-  const constantsList = await getAllContacts();
+  const constaсtsList = await getAllContacts();
   const newContactsList = Array(number).fill(0).map(createFakeContact);
 
-  const data = [...constantsList, ...newContactsList];
+  const data = [...constaсtsList, ...newContactsList];
   await updateContacts(data);
 };
 
