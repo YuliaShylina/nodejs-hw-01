@@ -10,7 +10,7 @@
 
 import { createFakeContact } from '../utils/createFakeContact.js';
 import { getAllContacts } from './getAllContacts.js';
-import { updateContacts } from './updateContacts.js';
+import { updateContacts } from '../utils/updateContacts.js';
 
 export const addOneContact = async () => {
   const contaсtsList = await getAllContacts();
