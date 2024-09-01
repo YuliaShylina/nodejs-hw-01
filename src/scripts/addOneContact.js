@@ -1,23 +1,14 @@
-// export const addOneContact = async () => {
-//   const constaсtsList = await getAllContacts();
-//   const newContactsList = createFakeContact();
-
-//   const data = [...constaсtsList, newContactsList];
-//   await updateContacts(data);
-// };
-
-// addOneContact();
-
 import { createFakeContact } from '../utils/createFakeContact.js';
-import { getAllContacts } from './getAllContacts.js';
+import { getAllContacts } from '../utils/getAllContacts.js';
 import { updateContacts } from '../utils/updateContacts.js';
 
 export const addOneContact = async () => {
-  const contaсtsList = await getAllContacts();
-  const newContactsList = createFakeContact();
+  const contactsList = await getAllContacts();
+  const newContact = createFakeContact();
 
-  const data = [...contaсtsList, newContactsList];
-  await updateContacts(data);
+  const updatedContactsList = [...contactsList, newContact];
+
+  await updateContacts(updatedContactsList);
 };
 
 addOneContact();
